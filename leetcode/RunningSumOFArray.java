@@ -9,8 +9,8 @@ public class RunningSumOFArray {
         int arr[] = new int[nums.length];
         int result = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-            result = result + nums[i];
+        for (int i = 0; i < nums.length; i++) { 
+            result = result + nums[i];   
             arr[i] = result;
         }
 
@@ -25,5 +25,4 @@ public class RunningSumOFArray {
 
         System.out.println(Arrays.toString(result));
     }
-}
- 
+}       
