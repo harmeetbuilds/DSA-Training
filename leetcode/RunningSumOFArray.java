@@ -3,7 +3,7 @@ package leetcode;
 import java.util.Arrays;
 
 public class RunningSumOFArray {
-
+    
     public static int[] runningSum(int[] nums) {
 
         int arr[] = new int[nums.length];
